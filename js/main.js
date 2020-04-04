@@ -19,5 +19,8 @@ $(document).ready(function() {
     autoplaySpeed: 2000,    
   });
 
+  // init mixitup
+  let mixer = mixitup("#myContainer");
+
 
 });
