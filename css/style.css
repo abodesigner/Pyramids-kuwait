@@ -27,21 +27,34 @@ ul li {
 
 /* START HOME SECTION */
 .home-section {
-
+position: relative;
+overflow: hidden;
+height: 100vh;
 }
 /* END HOME SECTION */
-
-/* START SLIDER */
-.carousel-inner > .carousel-item img{
-  height: calc(100vh - 75px);
-  background-position: center center;
+#main-slider{
+  position: relative;
+  overflow: hidden;
 }
+/* START SLIDER */
 
 .carousel-caption{
-  background: rgba(0,0,0,0.6);
-  padding: 10px;
-  border-radius: 0px;
+  background:0;
+  position: absolute;
+  top: 20%;  
 }
+
+.dark-overlay{
+  background: rgba(0,0,0,0.6);
+  position: absolute;
+  top:0;
+  left: 0;
+  right:0;
+  bottom:0;
+  height: 100vh;
+}
+
+
 
 /* END SLIDER */
 
