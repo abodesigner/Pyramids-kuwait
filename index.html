@@ -64,9 +64,9 @@
         <li class="nav-item">
           <a href="#contactus" class="nav-link">Contact Us</a>
         </li>
-        <!-- <li class="nav-item">
-          <a href="#index-ar.html" class="nav-link">العربية</a>
-        </li> -->
+        <li class="nav-item">
+          <a href="index-ar.html" class="nav-link" target="_self">العربية</a>
+        </li>
       </ul>
     </div>
     </nav>
@@ -140,7 +140,7 @@
   <!-- Start Our Services Section -->
   <div class="services-section py-5" id="services"> 
    <div class="container">
-    <h2 class="mb-5 font-weight-bold">Our Services</h2> 
+    <h2 class="mb-5 font-weight-bold text-center">Our Services</h2> 
     <div class="row">
        <div class="col-md-3">
          <div class="service text-center border rounded py-4 wow bounceInUp">
@@ -189,7 +189,7 @@
   <!-- Start Works Section -->
   <div class="works py-5 bg-light" id="works">
     <div class="container">
-      <h2 class="mb-5 font-weight-bold">Our Works</h2>
+      <h2 class="mb-5 font-weight-bold text-center">Our Works</h2>
       <div class="row mb-5">
         <div class="col-md-3">
         <div class="block text-center wow bounceInDown">
@@ -300,7 +300,7 @@
   <div class="clients py-5 bg-info" id="clients">
 
     <div class="container">
-      <h2 class="text-white font-weight-bold">Our Clients</h2>
+      <h2 class="text-white font-weight-bold text-center">Our Clients</h2>
       <div class="our-clients py-5">
         <div class="client-block">
           <img src="https://source.unsplash.com/user/erondu/150x150" alt="" class="img-fluid rounded-circle">
@@ -323,17 +323,19 @@
   <!-- Start Contact Us -->
   <div class="contactus py-5 bg-light" id="contactus">
     <div class="container">
-    <h2 class="mb-4">Get In Touch</h2>
+    <h2 class="mb-4 text-center">Get In Touch</h2>
     <form action="#" method="post">
-      <div class="form-group col-md-6">
-        <input type="text" id="fullname" class="form-control" placeholder="Write Full Name">
-      </div>
-      <div class="form-group col-md-6">
-        <input type="email" id="email" class="form-control" placeholder="Write Email">
-      </div>
-      <div class="form-group col-md-6">
-        <textarea class="form-control" name="" id="" cols="30" rows="10">Message</textarea>
-        <a href="#" role="button" class="btn btn-info btn-block my-4">Send</a>
+      <div class="contact-form d-flex flex-column justify-content-center align-items-center">
+        <div class="form-group col-md-6 col-offset-3">
+          <input type="text" id="fullname" class="form-control" placeholder="Write Full Name">
+        </div>
+        <div class="form-group col-md-6">
+          <input type="email" id="email" class="form-control" placeholder="Write Email">
+        </div>
+        <div class="form-group col-md-6">
+          <textarea class="form-control" name="" id="" cols="30" rows="10">Message</textarea>
+          <a href="#" role="button" class="btn btn-info btn-block my-4">Send</a>
+        </div>
       </div>
     </form>
     </div>

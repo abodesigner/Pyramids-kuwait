@@ -1,0 +1,11 @@
+/* START NAVBAR */
+.navbar-nav {
+    flex-direction: row-reverse !important;
+}
+
+
+
+/* START CONTACT US */
+.contact-form input, .contact-form textarea{
+    text-align: end;
+}
