@@ -25,6 +25,11 @@ ul li {
   color: #333;
 }
 
+/* START NAVBAR */
+.navbar-expand-lg .navbar-nav .nav-link{
+  font-size: 1.5rem;
+}
+
 /* START HOME SECTION */
 .home-section {
 position: relative;
